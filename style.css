@@ -1,0 +1,19 @@
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    gap: 50px;
+    background-color:aliceblue;
+}
+
+.card{
+    display: inline-flex;
+    min-width: 100px;
+    max-width: 200px;
+    max-height: 220px;
+    min-height: 110px;
+    background-color: rgb(132, 130, 236);
+    align-items: center;
+    padding: 50px;
+}
